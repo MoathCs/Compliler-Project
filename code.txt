@@ -1,0 +1,16 @@
+module ConditionalLoopModule;
+var
+
+    I, J, K, ANS;
+
+  BEGIN
+
+   I = 50 ;
+   J = 10;
+   K = I + J;
+   I = I + 1;   
+   ANS=10;
+   ANS = ANS + I + K + 100;
+   PRINT ANS;
+  END;
+end ConditionalLoopModule.
